@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html>
+	
+<head>
+	
+	<meta charset="UTF-8">
+	
+	<title>Untitled Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+		  
+</head>
+
+<body>
+	
+	<div id="container">
+		
+		<header>
+			<h1> Ryan Quattrocchi</h1>
+			<h2> Portfolio</h2>
+		</header>
+		
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href= "Bio.html"></a>Bio</li>
+			<li><a href= "Assignment .html">Assignment</a></li>
+		  <li><a href="Final Project.html">Final Project</a></li>
+		  </ul>
+		</nav>
+		
+	<main>
+		
+		
+<header>
+	<h1>Assignments</h1>
+	</header>
+		
+		<nav>
+		<ul>
+			<li><a>Assignemtns 1-2</a></li>
+			<li><a href= "assignment">Assignment 3</a></li>
+			<li><a href= "assignment">Assignment 4</a></li>
+			<li><a href= "assignment">Assignment 5</a></li>
+			<li><a href= "assignment">Assignment 6</a></li>
+			<li><a href= "assignment">Assignment 7</a></li>
+			</ul>
+		<figure> 
+<img src= "Pretty Beach.jpg" alt="Pretty Beach.jpg">
+<figcaption>Image from <a href=
+"https://travel.usnews.com/gallery/12-beautiful-beaches-youve-never-heard-of">
+Travel Us News.com</a><figcaption>
+		</figure>
+		</main>
+		
+		<footer>
+			<p>&#169; Ryan Quattrocchi, 2024</p>
+</footer>
+	</div><!-- close "container" -->
+</body>
+</html>
+
