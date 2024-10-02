@@ -1,47 +1,34 @@
-/* Basic CSS resets -- leveling slight inconsistencies in browsers */
-html, body {
-	margin:0px;
-	padding:0px;
-	height:100%;
+body{
+	background: #4C24AD;
+	color: #9C64DC;
+	font-family:Optima, Candara, "Arial Rounded MT Bold",sans-serif;
 }
 
-html {
-		/* Standard text-settings below */
-	font-size: 1em;
-    line-height: 1.4em;
-}
-
-
-
-
-body {
-	background:#4ea4b5;	
-	color:#8143c4;
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
-
-
-#container {
-	width: 70%;
-		background: rgba(64,163,120);
+#container{
+	width: 750px;
+		background: rgba(0,0,0,0.4);
 	margin:auto;
-	padding:15px;
+		padding:15px;
 }
 
-nav a{
+
+nav a {
 	color:white;
 }
 
-figure a { 
-color:seagreen;
+
+figure a {
+	color:darkred;
 }
+
 
 main nav a {
-Color:#5b169c;	
+	color:darkgreen;
 }
 
-a:hover{
-	Color:black;
+
+a:hover{ 
+	color:Black;
 }
 
 nav ul{
@@ -50,9 +37,10 @@ nav ul{
 }
 
 figure{
-	margin:0px;
+	margin: 0px;
 }
 
-figure img{
+figure omg{
 	width:100%;
 }
+
