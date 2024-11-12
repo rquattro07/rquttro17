@@ -1,0 +1,73 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:10px;
+	padding:10px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 2em;
+    line-height: 1.6em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	background:  #E2DBA3;
+    color: white;
+    font-family: Mynerve, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+}
+
+
+#container {
+	width: 80%;
+	height: 200%;
+		background:  #BD9A4A;
+	margin:auto;
+		padding:15px;
+	text-align: center;
+	border:2px solid white;
+
+}
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	#container{
+	height: 80%;
+	
+	
+}
+	
+} /* closes 1024px+ */
+
+
+

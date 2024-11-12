@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Assignment 8</title>
+  
+  <link rel="stylesheet" href="css/style.css">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mynerve&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <h1>Welcome to my page!</h1>
+      <h2>Enjoy these wise quotes!</h2>
+    </header>
+    
+    <!-- First quote -->
+    <p id="quote1">"The road to success and the road to failure are almost exactly the same.” —Colin R. Davis</p>
+    <button class="btn btn1">Show Second Quote</button>
+    
+    <!-- Second quote (hidden initially) -->
+    <p id="quote2" style="display:none;">"Do not go where the path may lead, go instead where there is no path and leave a trail." -Ralph Waldo Emerson</p>
+    <button class="btn btn2" style="display:none;">Show Third Quote</button>
+    
+    <!-- Third quote (hidden initially) -->
+    <p id="quote3" style="display:none;">“Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.” —Mark Twain</p>
+    <button class="btn btn3" style="display:none;">Show Fourth Quote</button>
+    
+    <!-- Fourth quote (hidden initially) -->
+    <p id="quote4" style="display:none;">““Success is getting what you want; happiness is wanting what you get.”―W. P. Kinsella</p>
+    <button class="btn btn4" style="display:none;">Show Fifth Quote</button>
+    
+    <!-- Fifth quote (hidden initially) -->
+    <p id="quote5" style="display:none;">Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.” —John Wooden</p>
+  </div><!-- close "container" -->
+
+  <!-- Link to jQuery on Google CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      // Button 1 shows quote 2
+      $('.btn1').click(function() {
+        $('#quote2').slideToggle(); // Show second quote
+        $(this).hide(); // Hide the first button after clicking
+        $('.btn2').show(); // Show second button
+      });
+      
+      // Button 2 shows quote 3
+      $('.btn2').click(function() {
+        $('#quote3').slideToggle(); // Show third quote
+        $(this).hide(); // Hide the second button after clicking
+        $('.btn3').show(); // Show third button
+      });
+      
+      // Button 3 shows quote 4
+      $('.btn3').click(function() {
+        $('#quote4').slideToggle(); // Show fourth quote
+        $(this).hide(); // Hide the third button after clicking
+        $('.btn4').show(); // Show fourth button
+      });
+      
+      // Button 4 shows quote 5
+      $('.btn4').click(function() {
+        $('#quote5').slideToggle(); // Show fifth quote
+        $(this).hide(); // Hide the fourth button after clicking
+      });
+    });
+  </script>
+
+</body>
+
+</html>
+
